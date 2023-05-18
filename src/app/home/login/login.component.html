@@ -3,7 +3,6 @@
 <form
   action=""
   class="form mt-4"
-  (ngSubmit)="login()"
 >
     <div class="form-group mb-2">
         <input
@@ -23,5 +22,5 @@
           name="password"
         >
     </div>
-    <button class="btn btn-primary btn-block w-100 mb-2">Login</button>
+    <button class="btn btn-primary btn-block w-100 mb-2" (click)="goToAnimais()">Login</button>
 </form>
